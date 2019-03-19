@@ -1,0 +1,169 @@
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html,body{
+				width: 100%;
+				height: 100%;
+			}
+			.superBg{
+				width: 100%;
+				height: 35.5rem;
+				background: linear-gradient(#1a0b34,#351c5d,#1a0b34);
+			}
+			.superUp{
+				width: 100%;
+				height: 23rem;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.supercolor{
+				width: 12rem;
+				height: 12rem;
+				border: 1px solid blue;
+				position: absolute;
+				border-radius:50% ;
+				background: linear-gradient(red, green, blue, yellow);
+			}
+			.linear{
+				width: 11rem;
+				height: 11rem;
+				/*border: 0.3rem solid green;*/
+				background: linear-gradient(#1a0b34,#351c5d,#1a0b34);
+				border-radius: 50%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: absolute;
+			}
+			/*.hide{
+				width: 100%;
+				height: 100%;
+				border: 0.1rem solid gray;
+				background: linear-gradient(red, green, blue, yellow);
+				position: absolute;
+				border-radius: 50%;
+				z-index: 1;
+			}*/
+			/*.linear:before{
+				position: absolute;
+            content: '';
+            background:linear-gradient(blue, yellow,purple);
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            transform: scale(1.1);
+            border-radius: 50%;
+			}*/
+			img{
+				display: inline-block;
+				height: auto;
+				max-width: 100%;
+				z-index: 999;
+			}
+			.smallerCircle{
+				width: 80%;
+				height: 80%;
+				background: #754249;
+				border-radius: 50%;
+			}
+			.photoLight{
+				width: 100%;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.photoLight img{
+				width: 3rem;
+				height: 5rem;
+			}
+			.superDown{
+				width: 100%;
+				height: 12.5rem;
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+			}
+			.showValue{
+				width: 2rem;
+				color: gray;
+				font-size: 1rem;
+				outline: none;
+				border: none;
+				background-color: transparent;
+			}
+			.rangeOne{
+				height: 30%;
+			}
+			#rangeOne,#rangeTwo{
+				margin-left: 1rem;
+			}
+			p{
+				float: left;
+			}
+			input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+				-webkit-appearance: none;
+			}
+			input[type="number"] {
+				-moz-appearance: textfield;
+			}
+			input {
+				-webkit-appearance: none;
+				width: 10rem;
+				border-radius: 0.6rem;
+				background: white;
+			}
+			input::-webkit-slider-runnable-track {
+				height: 0.1rem;
+				border-radius: 0.1rem;
+				border: none;
+				background: #56456f;
+			}
+			input::-webkit-slider-thumb {
+				-webkit-appearance: none;
+				height: 1rem;
+				width: 1rem;
+				margin-top: -0.5rem;
+				background: white;
+				border-radius: 50%;
+			}
+			input::-moz-range-track {
+					height: 3px;
+					border-radius: 10px;
+					border: none;
+					background: #30c0b1;
+			}
+			input::-moz-range-thumb {
+				-webkit-appearance: none;
+				height: 25px;
+				width: 25px;
+				margin-top: -10px;
+				background: #30c0b1;
+				border-radius: 50%;
+			}
+			.thumbUp{
+				width: 2rem;
+				height: 2rem;
+				border-radius: 50%;
+				border: 1px solid white;
+				background: red;
+				z-index: 999;
+			}
+			canvas{
+				padding-left: 3.5rem;
+				padding-top: 3.5rem;
+				display: block;
+				width: 70rem;
+				/*height: 20rem;*/
+				/*padding-left: 4rem;
+				padding-top: 4rem;*/
+				z-index: 1;
+				position: relative;
+			}
+			/*input:nth-child(2){
+				margin-left: 2rem;
+			}*/
