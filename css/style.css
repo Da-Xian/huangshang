@@ -22,7 +22,7 @@
 				width: 12rem;
 				height: 12rem;
 				border: 1px solid blue;
-				position: absolute;
+				position: fixed;
 				border-radius:50% ;
 				background: linear-gradient(red, green, blue, yellow);
 			}
@@ -68,7 +68,6 @@
 				display: flex;
 				align-items: center;
 				flex-direction: column;
-				position: fixed;
 			}
 			.showValue{
 				width: 2rem;
